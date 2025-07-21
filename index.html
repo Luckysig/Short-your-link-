@@ -3,1571 +3,1800 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lefind Digital Media | Premium Digital Marketing Solutions</title>
-    <meta name="description" content="Transform your digital presence with our expert digital marketing services including influencer marketing, social media management, and web development.">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Clickdera - Digital Marketing Solutions Since 2025</title>
+    <meta name="description" content="Boost your brand with Clickdera. We offer low-cost performance marketing, video editing, Google Map SEO, app reviews, and social media management in India, USA & Nepal.">
+    
+    <!-- Favicon for browser tab -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%233E62EE%22/><text x=%2250%22 y=%2265%22 font-family=%22Arial%22 font-size=%2250%22 text-anchor=%22middle%22 fill=%22white%22>C</text></svg>">
+    
+    <!-- Open Graph tags for social sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://clickdera.com/">
+    <meta property="og:title" content="Clickdera - Digital Marketing Solutions Since 2025">
+    <meta property="og:description" content="Boost your brand with Clickdera. We offer low-cost performance marketing, video editing, Google Map SEO, app reviews, and social media management in India, USA & Nepal.">
+    <meta property="og:image" content="https://clickdera.com/images/og-image.jpg">
+    
+    <!-- Twitter Card tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://clickdera.com/">
+    <meta property="twitter:title" content="Clickdera - Digital Marketing Solutions Since 2025">
+    <meta property="twitter:description" content="Boost your brand with Clickdera. We offer low-cost performance marketing, video editing, Google Map SEO, app reviews, and social media management in India, USA & Nepal.">
+    <meta property="twitter:image" content="https://clickdera.com/images/twitter-card.jpg">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-color: #6366f1;
-            --primary-dark: #4f46e5;
-            --secondary-color: #F59E0B;
-            --accent-color: #10B981;
-            --text-color: #E5E7EB;
-            --light-text: #9CA3AF;
-            --bg-color: #111827;
-            --dark-bg: #1F2937;
-            --card-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
-            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --primary: #3E62EE;
+            --primary-dark: #2A4BD7;
+            --primary-light: #E6EBFF;
+            --secondary: #795CF4;
+            --accent: #695FF3;
+            --dark: #1e293b;
+            --darker: #0f172a;
+            --light: #f8fafc;
+            --gray: #94a3b8;
+            --light-gray: #e2e8f0;
+            --success: #10b981;
+            --gradient-primary: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            --gradient-secondary: linear-gradient(135deg, var(--secondary) 0%, #5A4FDE 100%);
+            --hero-gradient: linear-gradient(120deg, #0f172a 0%, #1e293b 100%);
+            --card-gradient: linear-gradient(145deg, rgba(30,41,59,0.8) 0%, rgba(15,23,42,0.9) 100%);
         }
-
+        
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
         }
-
+        
         body {
-            line-height: 1.7;
-            color: var(--text-color);
-            background-color: var(--bg-color);
+            font-family: 'Poppins', sans-serif;
+            color: var(--light);
+            background: var(--hero-gradient);
+            line-height: 1.6;
             overflow-x: hidden;
         }
-
-        h1, h2, h3, h4 {
-            font-weight: 700;
-            line-height: 1.3;
-            color: white;
-        }
-
-        p {
-            color: var(--light-text);
-        }
-
+        
         .container {
-            width: 100%;
+            width: 90%;
             max-width: 1400px;
             margin: 0 auto;
-            padding: 0 40px;
+            padding: 0 15px;
         }
-
-        .section {
-            padding: 120px 0;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 80px;
-            position: relative;
-        }
-
-        .section-title h2 {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            color: white;
-        }
-
-        .section-title p {
-            max-width: 800px;
-            margin: 0 auto;
-            font-size: 1.2rem;
-        }
-
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -20px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: 4px;
-            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
-            border-radius: 2px;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 16px 36px;
-            background: var(--primary-color);
-            color: white;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: var(--transition);
-            border: none;
-            cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            font-size: 1.1rem;
-        }
-
-        .btn:hover {
-            background: var(--primary-dark);
-            transform: translateY(-3px);
-            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        .btn-secondary {
-            background: var(--secondary-color);
-        }
-
-        .btn-secondary:hover {
-            background: #D97706;
-        }
-
-        /* Navigation */
-        nav {
-            padding: 25px 5%;
-            background: var(--dark-bg);
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        
+        /* Header & Navigation */
+        header {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 15px 0;
             position: fixed;
             width: 100%;
             top: 0;
             z-index: 1000;
-            transition: var(--transition);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
         }
-
-        nav.scrolled {
-            padding: 15px 5%;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        .nav-container {
+        
+        .header-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            max-width: 1400px;
-            margin: 0 auto;
         }
-
+        
         .logo {
-            font-size: 2rem;
-            font-weight: 700;
-            color: white;
-        }
-
-        .logo span {
-            color: var(--primary-color);
-        }
-
-        .menu-btn {
-            background: var(--primary-color);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            padding: 12px 24px;
-            cursor: pointer;
             display: flex;
             align-items: center;
             gap: 10px;
-            transition: var(--transition);
-            font-weight: 600;
-            font-size: 1.1rem;
         }
-
-        .menu-btn:hover {
-            background: var(--primary-dark);
-            transform: translateY(-2px);
+        
+        .logo h1 {
+            color: white;
+            font-size: 2rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            letter-spacing: -0.5px;
         }
-
-        .dropdown-menu {
-            position: absolute;
-            right: 5%;
-            top: 100%;
-            background: var(--dark-bg);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            border-radius: 12px;
-            display: none;
-            min-width: 280px;
-            z-index: 1001;
-            padding: 20px 0;
-            overflow: hidden;
-            border: 1px solid rgba(255, 255, 255, 0.1);
+        
+        .logo span {
+            color: var(--accent);
         }
-
-        .dropdown-menu.active {
-            display: block;
-            animation: fadeIn 0.3s ease;
-        }
-
-        .menu-item {
-            padding: 14px 24px;
+        
+        nav ul {
             display: flex;
-            align-items: center;
-            gap: 12px;
-            color: var(--text-color);
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 25px;
+        }
+        
+        nav ul li a {
+            color: var(--light-gray);
             text-decoration: none;
-            transition: var(--transition);
             font-weight: 500;
             font-size: 1.1rem;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 8px 0;
         }
-
-        .menu-item:hover {
-            background: rgba(255, 255, 255, 0.05);
-            padding-left: 28px;
+        
+        nav ul li a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 3px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--accent);
+            transition: width 0.3s ease;
+            border-radius: 10px;
+        }
+        
+        nav ul li a:hover:after {
+            width: 100%;
+        }
+        
+        nav ul li a:hover {
+            color: var(--accent);
+        }
+        
+        .cta-button {
+            background: var(--gradient-primary);
             color: white;
-        }
-
-        .menu-item i {
-            width: 24px;
-            text-align: center;
-            color: var(--primary-color);
+            border: none;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: 600;
             font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(62, 98, 238, 0.3);
         }
-
-        /* Hero Section - Enhanced */
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(62, 98, 238, 0.4);
+        }
+        
+        /* Hero Section */
         .hero {
-            padding: 240px 5% 160px;
-            text-align: center;
-            background: linear-gradient(rgba(17, 24, 39, 0.9), rgba(17, 24, 39, 0.9)), 
-                        url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80') no-repeat center center/cover;
+            background: var(--hero-gradient), 
+                        url('https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000') no-repeat center center/cover;
+            background-blend-mode: multiply;
+            color: white;
+            padding: 220px 0 140px;
             position: relative;
             overflow: hidden;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            text-align: center;
         }
-
+        
         .hero::before {
             content: '';
             position: absolute;
-            top: -50%;
-            right: -20%;
-            width: 1000px;
-            height: 1000px;
-            background: radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, rgba(99, 102, 241, 0) 70%);
-            z-index: 0;
+            top: -100px;
+            right: -100px;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(121, 92, 244, 0.15) 0%, transparent 70%);
+            z-index: 1;
+            animation: float 6s infinite ease-in-out;
         }
-
+        
         .hero::after {
             content: '';
             position: absolute;
-            bottom: -30%;
-            left: -20%;
-            width: 800px;
-            height: 800px;
-            background: radial-gradient(circle, rgba(16, 185, 129, 0.1) 0%, rgba(16, 185, 129, 0) 70%);
-            z-index: 0;
-        }
-
-        .hero-content {
-            position: relative;
+            bottom: -100px;
+            left: -100px;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(62, 98, 238, 0.15) 0%, transparent 70%);
             z-index: 1;
-            max-width: 1000px;
+            animation: float 8s infinite ease-in-out;
+        }
+        
+        .hero-content {
+            max-width: 950px;
+            position: relative;
+            z-index: 2;
             margin: 0 auto;
         }
-
+        
         .hero h1 {
-            font-size: 4rem;
-            margin-bottom: 30px;
-            color: white;
-            line-height: 1.2;
-            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            font-size: 3.8rem;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 25px;
+            font-family: 'Montserrat', sans-serif;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
-
+        
+        .hero h1 span {
+            color: var(--accent);
+            position: relative;
+            display: inline-block;
+        }
+        
+        .hero h1 span::after {
+            content: '';
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+            height: 15px;
+            background: rgba(105, 95, 243, 0.3);
+            z-index: -1;
+        }
+        
         .hero p {
             font-size: 1.4rem;
-            margin-bottom: 50px;
+            margin: 0 auto 50px;
+            color: var(--light-gray);
             max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-            color: rgba(255, 255, 255, 0.9);
+            font-weight: 300;
+            line-height: 1.8;
         }
-
-        .hero-btns {
+        
+        .hero-buttons {
             display: flex;
             gap: 25px;
             justify-content: center;
-            margin-top: 40px;
         }
-
-        /* Services Section - Enhanced */
-        .services {
-            background: var(--bg-color);
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: white;
+            border: 2px solid var(--accent);
+            padding: 16px 40px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-secondary:hover {
+            background-color: var(--accent);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(105, 95, 243, 0.3);
+        }
+        
+        /* About Clickdera Section */
+        .about-clickdera {
+            padding: 120px 0;
             position: relative;
+            overflow: hidden;
+            background: rgba(15, 23, 42, 0.8);
         }
-
-        .services-grid {
+        
+        .about-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 40px;
-        }
-
-        .service-card {
-            background: var(--dark-bg);
-            padding: 50px 40px;
-            border-radius: 20px;
-            box-shadow: var(--card-shadow);
-            transition: var(--transition);
-            text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            display: flex;
-            flex-direction: column;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            max-width: 1300px;
+            margin: 0 auto;
             align-items: center;
-            height: 100%;
         }
-
-        .service-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
-            border-color: rgba(99, 102, 241, 0.3);
+        
+        .about-content {
+            position: relative;
+            z-index: 2;
         }
-
-        .service-icon {
-            width: 90px;
-            height: 90px;
-            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-            border-radius: 50%;
+        
+        .about-image {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            height: 500px;
+            background: linear-gradient(45deg, var(--primary-dark), var(--accent));
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 30px;
-            color: white;
-            font-size: 2.2rem;
-            transition: var(--transition);
+            transform: perspective(1000px) rotateY(-10deg);
+            transition: transform 0.5s ease;
         }
-
-        .service-card:hover .service-icon {
-            transform: rotate(15deg) scale(1.1);
+        
+        .about-image:hover {
+            transform: perspective(1000px) rotateY(0deg);
         }
-
-        .service-card h3 {
-            font-size: 1.7rem;
-            margin-bottom: 20px;
-            color: white;
-        }
-
-        .service-card p {
-            margin-bottom: 30px;
-            flex-grow: 1;
-            font-size: 1.1rem;
-        }
-
-        .service-card .service-btn {
-            margin-top: auto;
-            padding: 12px 28px;
-            background: rgba(99, 102, 241, 0.1);
-            color: var(--primary-color);
-            border-radius: 50px;
-            font-weight: 600;
-            transition: var(--transition);
-            border: 1px solid rgba(99, 102, 241, 0.3);
-            font-size: 1.1rem;
-        }
-
-        .service-card .service-btn:hover {
-            background: var(--primary-color);
-            color: white;
-        }
-
-        /* Process Section - Enhanced */
-        .process {
-            background: var(--bg-color);
-        }
-
-        .process-steps {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 40px;
-            position: relative;
-        }
-
-        .process-step {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-
-        .process-step:not(:last-child)::after {
+        
+        .about-image::before {
             content: '';
             position: absolute;
-            top: 50px;
-            right: -40px;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1000') center/cover;
+            opacity: 0.7;
         }
-
-        .step-number {
+        
+        .about-content h2 {
+            font-size: 2.8rem;
+            margin-bottom: 25px;
+            color: var(--light);
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .about-content h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
             width: 100px;
-            height: 100px;
-            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            height: 5px;
+            background: var(--gradient-secondary);
+            border-radius: 10px;
+        }
+        
+        .about-content h2 span {
+            color: var(--accent);
+        }
+        
+        .about-content p {
+            color: var(--gray);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+        
+        .mission-statement {
+            margin-top: 30px;
+            padding: 30px;
+            background: var(--card-gradient);
+            border-radius: 20px;
+            border-left: 5px solid var(--accent);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            transition: all 0.4s ease;
+        }
+        
+        .mission-statement:hover {
+            transform: translateY(-5px);
+        }
+        
+        .mission-statement h3 {
+            font-size: 1.8rem;
+            color: var(--light);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .mission-statement h3 i {
+            color: var(--accent);
+            font-size: 1.8rem;
+        }
+        
+        .mission-statement p {
+            color: var(--light-gray);
+            margin-bottom: 0;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        /* Timeline */
+        .timeline {
+            margin-top: 50px;
+            position: relative;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 4px;
+            background: var(--gradient-primary);
+            left: 10px;
+            top: 0;
+            border-radius: 10px;
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-left: 50px;
+            margin-bottom: 40px;
+        }
+        
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .timeline-icon {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 24px;
+            height: 24px;
             border-radius: 50%;
+            background: var(--gradient-primary);
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
-            font-weight: 700;
-            font-size: 2.2rem;
-            margin-bottom: 30px;
+            font-size: 12px;
+            box-shadow: 0 0 0 6px rgba(62, 98, 238, 0.2);
+        }
+        
+        .timeline-content h4 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: var(--light);
+        }
+        
+        .timeline-content p {
+            color: var(--gray);
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+        
+        /* Stats Section - FIXED */
+        .stats {
+            padding: 100px 0;
+            position: relative;
             z-index: 1;
+            background: rgba(15, 23, 42, 0.7);
         }
-
-        .step-content {
-            background: var(--dark-bg);
-            padding: 40px;
+        
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 35px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .stat-card {
+            background: var(--card-gradient);
             border-radius: 20px;
-            box-shadow: var(--card-shadow);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            height: 100%;
+            padding: 50px 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.4s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(5px);
         }
-
-        .step-content h3 {
+        
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--gradient-primary);
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-10px) scale(1.03);
+            box-shadow: 0 15px 40px rgba(62, 98, 238, 0.15);
+        }
+        
+        .stat-icon {
+            font-size: 3rem;
+            color: var(--accent);
             margin-bottom: 20px;
-            color: white;
-            font-size: 1.5rem;
+            transition: all 0.4s ease;
         }
-
-        .step-content p {
-            font-size: 1.1rem;
+        
+        .stat-card:hover .stat-icon {
+            transform: scale(1.2);
+            color: var(--primary-light);
         }
-
-        /* Testimonials Section - Enhanced */
-        .testimonials {
-            background: var(--bg-color);
+        
+        .stat-number {
+            font-size: 4rem;
+            font-weight: 800;
+            color: var(--primary-light);
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 15px;
+            line-height: 1;
         }
-
-        .testimonials-grid {
+        
+        .stat-text {
+            font-size: 1.3rem;
+            color: var(--light-gray);
+            font-weight: 600;
+        }
+        
+        /* Why Choose Us Section - Enhanced */
+        .why-us {
+            padding: 120px 0;
+            position: relative;
+            background: rgba(15, 23, 42, 0.7);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        
+        .section-title h2 {
+            font-size: 3.2rem;
+            color: var(--light);
+            margin-bottom: 15px;
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 5px;
+            background: var(--gradient-secondary);
+            border-radius: 10px;
+        }
+        
+        .section-title p {
+            color: var(--gray);
+            max-width: 800px;
+            margin: 25px auto 0;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        
+        .why-us-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .why-us-header {
+            max-width: 900px;
+            margin: 0 auto 60px;
+        }
+        
+        .why-us-header h2 {
+            font-size: 2.8rem;
+            margin-bottom: 25px;
+            color: var(--light);
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.2;
+        }
+        
+        .why-us-header h2 span {
+            color: var(--accent);
+            position: relative;
+        }
+        
+        .why-us-header h2 span::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--gradient-secondary);
+            border-radius: 10px;
+        }
+        
+        .why-us-header p {
+            color: var(--gray);
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        
+        .why-points-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 40px;
+            gap: 35px;
+            margin-top: 40px;
         }
-
-        .testimonial-card {
-            background: var(--dark-bg);
-            padding: 50px 40px;
+        
+        .why-point-card {
+            background: var(--card-gradient);
             border-radius: 20px;
-            box-shadow: var(--card-shadow);
+            padding: 45px 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.4s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
             position: relative;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            transition: var(--transition);
+            overflow: hidden;
+            backdrop-filter: blur(5px);
         }
-
+        
+        .why-point-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--gradient-primary);
+            transition: all 0.4s ease;
+            opacity: 0;
+        }
+        
+        .why-point-card:hover::before {
+            opacity: 1;
+        }
+        
+        .why-point-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 15px 40px rgba(62, 98, 238, 0.15);
+        }
+        
+        .point-icon {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 25px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: white;
+            transition: all 0.4s ease;
+        }
+        
+        .why-point-card:hover .point-icon {
+            transform: scale(1.1) rotate(10deg);
+            background: var(--gradient-secondary);
+        }
+        
+        .why-point-card h3 {
+            font-size: 1.7rem;
+            margin-bottom: 20px;
+            color: var(--light);
+            transition: color 0.3s ease;
+        }
+        
+        .why-point-card:hover h3 {
+            color: var(--accent);
+        }
+        
+        .why-point-card p {
+            color: var(--gray);
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        /* Testimonials Section */
+        .testimonials {
+            padding: 120px 0;
+            background: rgba(15, 23, 42, 0.8);
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+        
+        .testimonial-card {
+            background: var(--card-gradient);
+            border-radius: 20px;
+            padding: 45px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            transition: all 0.3s ease;
+        }
+        
         .testimonial-card:hover {
             transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(62, 98, 238, 0.15);
         }
-
-        .testimonial-card::before {
+        
+        .testimonial-content {
+            position: relative;
+            padding-bottom: 35px;
+            margin-bottom: 35px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .testimonial-content::before {
             content: '"';
             position: absolute;
-            top: 30px;
-            left: 30px;
-            font-size: 6rem;
-            color: rgba(99, 102, 241, 0.1);
+            top: -40px;
+            left: -20px;
+            font-size: 8rem;
+            color: var(--primary);
+            opacity: 0.3;
             font-family: serif;
             line-height: 1;
         }
-
-        .testimonial-content {
-            position: relative;
-            z-index: 1;
-            margin-bottom: 40px;
-            font-size: 1.15rem;
+        
+        .testimonial-content p {
+            color: var(--light-gray);
+            font-style: italic;
+            font-size: 1.2rem;
             line-height: 1.8;
         }
-
-        .testimonial-author {
+        
+        .client-info {
             display: flex;
             align-items: center;
             gap: 20px;
         }
-
-        .author-avatar {
-            width: 60px;
-            height: 60px;
+        
+        .client-avatar {
+            width: 70px;
+            height: 70px;
             border-radius: 50%;
-            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            background: var(--gradient-primary);
             display: flex;
             align-items: center;
             justify-content: center;
+            font-size: 28px;
             color: white;
-            font-weight: bold;
-            font-size: 1.5rem;
-            flex-shrink: 0;
-        }
-
-        .author-info h4 {
-            font-size: 1.3rem;
-            margin-bottom: 5px;
-        }
-
-        .author-info p {
-            font-size: 1rem;
-            color: var(--light-text);
-        }
-
-        /* Achievements Section */
-        .achievements {
-            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
-            color: white;
-            position: relative;
+            transition: all 0.3s ease;
             overflow: hidden;
         }
-
-        .achievements::before {
-            content: '';
-            position: absolute;
-            top: -50px;
-            right: -50px;
-            width: 300px;
-            height: 300px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
+        
+        .client-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
-
-        .achievements::after {
-            content: '';
-            position: absolute;
-            bottom: -80px;
-            left: -80px;
-            width: 400px;
-            height: 400px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 50%;
+        
+        .testimonial-card:hover .client-avatar {
+            background: var(--gradient-secondary);
+            transform: scale(1.1);
         }
-
-        .achievements-container {
-            position: relative;
-            z-index: 1;
+        
+        .client-details h4 {
+            font-size: 1.3rem;
+            color: var(--light);
+            margin-bottom: 5px;
         }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 30px;
+        
+        .client-details p {
+            color: var(--gray);
+            font-size: 1.05rem;
+        }
+        
+        /* FAQ Section */
+        .faq {
+            padding: 120px 0;
+            background: var(--darker);
+        }
+        
+        .faq-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .faq-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
             margin-top: 60px;
         }
-
-        .stat-card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            padding: 60px 30px;
-            border-radius: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            transition: var(--transition);
-            text-align: center;
+        
+        .faq-item {
+            background: var(--card-gradient);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            transition: all 0.3s ease;
         }
-
-        .stat-card:hover {
-            transform: translateY(-10px);
-            background: rgba(255, 255, 255, 0.15);
+        
+        .faq-item:hover {
+            transform: translateY(-5px);
         }
-
-        .counter {
-            font-size: 3.5rem;
-            font-weight: 700;
-            margin: 10px 0;
-            color: white;
+        
+        .faq-question {
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: rgba(15, 23, 42, 0.5);
         }
-
-        .stat-card p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            margin-top: 10px;
-            color: white;
+        
+        .faq-question h3 {
+            font-size: 1.3rem;
+            color: var(--light);
+            margin: 0;
         }
-
-        /* Contact Section - Enhanced */
+        
+        .faq-question i {
+            color: var(--accent);
+            transition: transform 0.3s ease;
+            font-size: 1.3rem;
+        }
+        
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+        
+        .faq-answer {
+            padding: 0 30px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item.active .faq-answer {
+            padding: 0 30px 30px;
+            max-height: 1000px;
+        }
+        
+        .faq-answer p {
+            color: var(--gray);
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        
+        /* Contact Section */
         .contact {
-            background: var(--bg-color);
+            padding: 140px 0;
             position: relative;
         }
-
+        
         .contact::before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
-            right: 0;
-            height: 150px;
-            background: linear-gradient(to bottom, rgba(17, 24, 39, 1), rgba(17, 24, 39, 0));
-            z-index: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000') no-repeat center center/cover;
+            opacity: 0.1;
+            z-index: -1;
         }
-
+        
         .contact-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 50px;
-            justify-content: center;
-            position: relative;
-            z-index: 1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            max-width: 1300px;
+            margin: 0 auto;
         }
-
-        .contact-column {
-            flex: 1;
-            min-width: 350px;
-            max-width: 550px;
+        
+        .contact-info {
+            padding: 50px;
+            background: var(--card-gradient);
+            border-radius: 25px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            transition: transform 0.4s ease;
         }
-
-        .contact-form {
-            background: var(--dark-bg);
-            padding: 50px 40px;
-            border-radius: 20px;
-            box-shadow: var(--card-shadow);
-            height: 100%;
-            border: 1px solid rgba(255, 255, 255, 0.05);
+        
+        .contact-info:hover {
+            transform: translateY(-5px);
         }
-
-        .contact-info-card {
-            background: var(--dark-bg);
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: var(--card-shadow);
-            height: 100%;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-        }
-
-        .contact-info-card h3 {
-            font-size: 1.7rem;
+        
+        .contact-info h3 {
+            font-size: 2rem;
             margin-bottom: 30px;
-            color: var(--primary-color);
+            color: var(--light);
+            position: relative;
+            padding-bottom: 20px;
+        }
+        
+        .contact-info h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 70px;
+            height: 5px;
+            background: var(--gradient-primary);
+            border-radius: 10px;
+        }
+        
+        .contact-info p {
+            color: var(--gray);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        
+        .contact-details {
+            margin-top: 30px;
+        }
+        
+        .contact-item {
+            display: flex;
+            margin-bottom: 30px;
+            align-items: flex-start;
+            transition: transform 0.3s ease;
+        }
+        
+        .contact-item:hover {
+            transform: translateX(5px);
+        }
+        
+        .contact-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--primary-light);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 24px;
+            margin-right: 20px;
+            flex-shrink: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-item:hover .contact-icon {
+            background: var(--gradient-primary);
+            color: white;
+        }
+        
+        .contact-text h4 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: var(--light);
+        }
+        
+        .contact-text p {
+            color: var(--gray);
+            font-size: 1.1rem;
+            margin: 0;
+        }
+        
+        .whatsapp-option {
             display: flex;
             align-items: center;
             gap: 15px;
-        }
-
-        .contact-info-card h3 i {
-            font-size: 1.5rem;
-        }
-
-        .contact-info-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 25px;
-        }
-
-        .contact-info-item {
-            display: flex;
-            align-items: flex-start;
-            gap: 20px;
-            padding: 20px;
+            margin-top: 30px;
+            color: var(--gray);
+            padding: 15px 20px;
+            background: rgba(15, 23, 42, 0.4);
             border-radius: 12px;
-            transition: var(--transition);
-        }
-
-        .contact-info-item:hover {
-            background: rgba(99, 102, 241, 0.05);
-        }
-
-        .contact-icon {
-            width: 55px;
-            height: 55px;
-            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-            color: white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-            font-size: 1.3rem;
-        }
-
-        .contact-details h4 {
-            font-size: 1.3rem;
-            margin-bottom: 8px;
-            color: white;
-        }
-
-        .contact-details p, .contact-details a {
-            color: var(--light-text);
-            text-decoration: none;
-            transition: var(--transition);
+            transition: all 0.3s ease;
             font-size: 1.1rem;
         }
-
-        .contact-details a:hover {
-            color: var(--primary-color);
+        
+        .whatsapp-option:hover {
+            background: rgba(15, 23, 42, 0.7);
+            transform: translateX(5px);
         }
-
+        
+        .whatsapp-icon {
+            color: #25D366;
+            font-size: 2.2rem;
+        }
+        
+        .contact-form {
+            background: var(--card-gradient);
+            border-radius: 25px;
+            padding: 50px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            transition: transform 0.4s ease;
+        }
+        
+        .contact-form:hover {
+            transform: translateY(-5px);
+        }
+        
+        .contact-form h3 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: var(--light);
+            position: relative;
+            padding-bottom: 20px;
+        }
+        
+        .contact-form h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 70px;
+            height: 5px;
+            background: var(--gradient-secondary);
+            border-radius: 10px;
+        }
+        
         .form-group {
             margin-bottom: 25px;
         }
-
+        
         .form-group label {
             display: block;
             margin-bottom: 10px;
+            color: var(--light);
             font-weight: 500;
-            color: white;
             font-size: 1.1rem;
         }
-
+        
         .form-control {
             width: 100%;
-            padding: 15px 20px;
+            padding: 18px;
+            background: rgba(15, 23, 42, 0.4);
             border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
+            border-radius: 15px;
+            font-family: 'Poppins', sans-serif;
             font-size: 1.1rem;
-            transition: var(--transition);
-            background: rgba(255, 255, 255, 0.05);
-            color: white;
+            transition: all 0.3s ease;
+            color: var(--light);
         }
-
+        
         .form-control:focus {
             outline: none;
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(62, 98, 238, 0.2);
         }
-
+        
         textarea.form-control {
             min-height: 180px;
             resize: vertical;
         }
-
-        /* Social Media Section */
-        .social-section {
-            background: var(--dark-bg);
+        
+        button[type="submit"] {
+            background: var(--gradient-primary);
             color: white;
-            text-align: center;
+            border: none;
+            padding: 18px;
+            border-radius: 15px;
+            font-weight: 600;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            box-shadow: 0 5px 20px rgba(62, 98, 238, 0.3);
         }
-
-        .social-section .section-title h2,
-        .social-section .section-title p {
-            color: white;
+        
+        button[type="submit"]:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(62, 98, 238, 0.4);
         }
-
-        .social-media {
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-            margin-top: 40px;
-            flex-wrap: wrap;
-        }
-
-        .social-icon {
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 2rem;
-            transition: var(--transition);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        .social-icon:hover {
-            transform: translateY(-5px) scale(1.1);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-        }
-
-        .instagram { 
-            background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
-        }
-        .linkedin { 
-            background: #0077B5;
-        }
-        .telegram { 
-            background: #0088CC;
-        }
-
+        
         /* Footer */
-        .footer {
-            background: var(--dark-bg);
+        footer {
+            background: var(--darker);
             color: white;
             padding: 100px 0 40px;
+            position: relative;
+            overflow: hidden;
         }
-
-        .footer-grid {
+        
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1000') no-repeat center center/cover;
+            opacity: 0.05;
+            z-index: -1;
+        }
+        
+        .footer-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 50px;
             margin-bottom: 60px;
         }
-
-        .footer-col h3 {
-            font-size: 1.5rem;
+        
+        .footer-logo {
+            font-size: 2rem;
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 20px;
+        }
+        
+        .footer-logo span {
+            color: var(--accent);
+        }
+        
+        .footer-about p {
+            color: var(--light-gray);
             margin-bottom: 25px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.08);
+            color: white;
+            transition: all 0.3s ease;
+            font-size: 20px;
+        }
+        
+        .social-links a:hover {
+            background: var(--gradient-primary);
+            transform: translateY(-3px);
+        }
+        
+        .gmb-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 15px;
+            color: var(--primary-light);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+        }
+        
+        .gmb-link:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+        
+        .footer-heading {
+            font-size: 1.4rem;
+            margin-bottom: 30px;
             position: relative;
             padding-bottom: 15px;
+            color: var(--light);
         }
-
-        .footer-col h3::after {
+        
+        .footer-heading::after {
             content: '';
             position: absolute;
             bottom: 0;
             left: 0;
             width: 60px;
             height: 4px;
-            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            background: var(--gradient-secondary);
+            border-radius: 10px;
         }
-
-        .footer-links {
+        
+        .footer-links ul {
             list-style: none;
         }
-
-        .footer-links li {
-            margin-bottom: 15px;
+        
+        .footer-links ul li {
+            margin-bottom: 18px;
         }
-
-        .footer-links a {
-            color: #9CA3AF;
+        
+        .footer-links ul li a {
+            color: var(--light-gray);
             text-decoration: none;
-            transition: var(--transition);
+            transition: all 0.3s ease;
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
             font-size: 1.1rem;
         }
-
-        .footer-links a:hover {
-            color: white;
+        
+        .footer-links ul li a i {
+            color: var(--accent);
+            transition: transform 0.3s ease;
+        }
+        
+        .footer-links ul li a:hover {
+            color: var(--accent);
+            padding-left: 5px;
+        }
+        
+        .footer-links ul li a:hover i {
             transform: translateX(5px);
         }
-
-        .footer-links a i {
-            width: 24px;
-            font-size: 1.1rem;
-        }
-
-        .footer-bottom {
+        
+        .copyright {
             text-align: center;
             padding-top: 40px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: #9CA3AF;
-            font-size: 1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            color: var(--light-gray);
+            font-size: 1.1rem;
         }
-
-        /* Floating Contact Button */
-        .floating-contact {
+        
+        /* Scroll to Top Button */
+        .scroll-top {
             position: fixed;
-            bottom: 40px;
-            right: 40px;
-            z-index: 1000;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            gap: 20px;
-        }
-
-        .contact-btn {
-            background: linear-gradient(135deg, #25D366, #128C7E);
-            width: 80px;
-            height: 80px;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: var(--gradient-primary);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
+            color: white;
+            font-size: 20px;
             cursor: pointer;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-            transition: var(--transition);
-            position: relative;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+            z-index: 999;
+            box-shadow: 0 5px 15px rgba(62, 98, 238, 0.3);
         }
-
-        .contact-btn:hover {
-            transform: scale(1.1) rotate(15deg);
+        
+        .scroll-top.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
         }
-
-        .contact-btn i {
-            font-size: 2rem;
-            color: white;
+        
+        .scroll-top:hover {
+            background: var(--gradient-secondary);
+            transform: translateY(-5px) scale(1.1);
         }
-
-        .contact-btn .pulse {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: rgba(37, 211, 102, 0.4);
-            border-radius: 50%;
-            animation: pulse 2s infinite;
-            z-index: -1;
-        }
-
-        .contact-options {
-            display: none;
-            flex-direction: column;
-            gap: 20px;
-            animation: fadeInUp 0.3s ease;
-        }
-
-        .contact-options.active {
-            display: flex;
-        }
-
-        .contact-option {
-            background: var(--dark-bg);
-            padding: 18px 25px;
-            border-radius: 50px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            text-decoration: none;
-            transition: var(--transition);
-            width: 250px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .contact-option:hover {
-            transform: translateX(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-        }
-
-        .contact-option i {
-            font-size: 1.5rem;
-        }
-
-        .contact-option span {
-            font-weight: 500;
-            color: white;
-            font-size: 1.1rem;
-        }
-
+        
         /* Animations */
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
         }
-
+        
         @keyframes fadeInUp {
             from {
                 opacity: 0;
-                transform: translateY(20px);
+                transform: translateY(30px);
             }
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-
-        @keyframes pulse {
-            0% {
-                transform: scale(0.8);
-                opacity: 0.7;
-            }
-            70% {
-                transform: scale(1.3);
-                opacity: 0;
-            }
-            100% {
-                transform: scale(0.8);
-                opacity: 0;
-            }
-        }
-
-        /* Responsive Styles */
-        @media (max-width: 1400px) {
-            .container {
-                max-width: 1200px;
-            }
-        }
-
+        
+        /* Responsive Design */
         @media (max-width: 1200px) {
-            .process-steps {
+            .hero h1 {
+                font-size: 3.3rem;
+            }
+            
+            .why-points-grid {
                 grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .about-container {
+                grid-template-columns: 1fr;
                 gap: 40px;
             }
             
-            .process-step:not(:last-child)::after {
-                display: none;
-            }
-            
-            .process-step:nth-child(2)::after {
-                display: block;
-                top: auto;
-                bottom: -40px;
-                right: 50%;
-                width: 4px;
-                height: 60px;
-                transform: translateX(50%);
-            }
-            
-            .testimonials-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .stats-grid {
-                grid-template-columns: repeat(2, 1fr);
+            .about-image {
+                height: 400px;
             }
         }
-
+        
         @media (max-width: 992px) {
-            .hero h1 {
-                font-size: 3.5rem;
+            .contact-container {
+                grid-template-columns: 1fr;
+                max-width: 700px;
             }
             
-            .section {
-                padding: 100px 0;
+            .about-container {
+                padding: 0;
             }
             
-            .section-title h2 {
-                font-size: 2.8rem;
+            .why-points-grid {
+                grid-template-columns: 1fr;
             }
         }
-
+        
         @media (max-width: 768px) {
             .hero {
-                padding: 200px 5% 120px;
+                padding: 180px 0 100px;
             }
             
             .hero h1 {
-                font-size: 3rem;
+                font-size: 2.7rem;
             }
             
             .hero p {
                 font-size: 1.2rem;
             }
             
-            .hero-btns {
+            .hero-buttons {
                 flex-direction: column;
-                gap: 20px;
+                gap: 15px;
             }
             
-            .btn {
+            .cta-button, .btn-secondary {
                 width: 100%;
-                text-align: center;
+                max-width: 300px;
+                margin: 0 auto;
             }
             
-            .services-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .process-steps {
-                grid-template-columns: 1fr;
-                gap: 40px;
-            }
-            
-            .process-step:nth-child(2)::after {
-                display: none;
-            }
-            
-            .testimonials-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .contact-column {
-                min-width: 100%;
-            }
-            
-            .contact-info-item {
-                padding: 15px;
-            }
-            
-            .contact-icon {
-                width: 50px;
-                height: 50px;
-                font-size: 1.2rem;
-            }
-
-            .stats-grid {
-                grid-template-columns: 1fr;
+            .section-title h2 {
+                font-size: 2.5rem;
             }
         }
-
+        
         @media (max-width: 576px) {
             .hero h1 {
-                font-size: 2.5rem;
+                font-size: 2.3rem;
+            }
+            
+            .stat-number {
+                font-size: 3.2rem;
             }
             
             .section-title h2 {
                 font-size: 2.2rem;
             }
             
-            .counter {
-                font-size: 3rem;
+            .about-content h2 {
+                font-size: 2.2rem;
             }
             
-            .footer-grid {
+            .testimonials-grid {
                 grid-template-columns: 1fr;
             }
-            
-            .floating-contact {
-                bottom: 30px;
-                right: 30px;
+        }
+        
+        /* Improved Icons */
+        .service-icon i {
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover .service-icon i {
+            transform: scale(1.2);
+        }
+        
+        /* Animation delays */
+        .service-card:nth-child(1) { transition-delay: 0.1s; }
+        .service-card:nth-child(2) { transition-delay: 0.2s; }
+        .service-card:nth-child(3) { transition-delay: 0.3s; }
+        .service-card:nth-child(4) { transition-delay: 0.4s; }
+        .service-card:nth-child(5) { transition-delay: 0.5s; }
+        .service-card:nth-child(6) { transition-delay: 0.6s; }
+        
+        /* Better desktop spacing */
+        @media (min-width: 1600px) {
+            .container {
+                max-width: 1500px;
             }
             
-            .contact-btn {
-                width: 70px;
-                height: 70px;
+            .hero-content {
+                max-width: 1100px;
             }
             
-            .contact-option {
-                width: 220px;
+            .services-grid {
+                gap: 45px;
+            }
+            
+            .testimonials-grid {
+                gap: 50px;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="navbar">
-        <div class="nav-container">
-            <div class="logo">Lefind <span>Digital Media</span></div>
-            <button class="menu-btn" onclick="toggleMenu()">
-                <i class="fas fa-bars"></i>
-                Menu
-            </button>
-            <div class="dropdown-menu" id="dropdownMenu">
-                <a href="#home" class="menu-item">
-                    <i class="fas fa-home"></i>
-                    Home
-                </a>
-                <a href="#services" class="menu-item">
-                    <i class="fas fa-cogs"></i>
-                    Services
-                </a>
-                <a href="#process" class="menu-item">
-                    <i class="fas fa-project-diagram"></i>
-                    Our Process
-                </a>
-                <a href="#testimonials" class="menu-item">
-                    <i class="fas fa-star"></i>
-                    Testimonials
-                </a>
-                <a href="#achievements" class="menu-item">
-                    <i class="fas fa-trophy"></i>
-                    Achievements
-                </a>
-                <a href="#contact" class="menu-item">
-                    <i class="fas fa-phone"></i>
-                    Contact
-                </a>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Click<span>dera</span></h1>
             </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="cta-button">Get Started</a>
         </div>
-    </nav>
+    </header>
 
-    <!-- Hero Section - Enhanced -->
+    <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Transform Your Digital Presence With Expert Marketing</h1>
-            <p>Lefind Digital Media delivers data-driven digital marketing strategies that generate measurable results and accelerate your business growth in today's competitive landscape.</p>
-            <div class="hero-btns">
-                <a href="#contact" class="btn">Get Started</a>
-                <a href="#services" class="btn btn-secondary">Our Services</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section - Enhanced -->
-    <section class="section services" id="services">
         <div class="container">
-            <div class="section-title">
-                <h2>Our Digital Marketing Services</h2>
-                <p>Comprehensive solutions tailored to your business needs and goals</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>Influencer Marketing</h3>
-                    <p>Strategic brand partnerships with top influencers to amplify your reach and credibility in your industry through authentic collaborations and targeted campaigns.</p>
-                    <a href="#contact" class="service-btn">Learn More</a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-film"></i>
-                    </div>
-                    <h3>Video Editing</h3>
-                    <p>Professional post-production, animation, and video marketing services to engage your audience with high-quality visual content that converts viewers to customers.</p>
-                    <a href="#contact" class="service-btn">Learn More</a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-hashtag"></i>
-                    </div>
-                    <h3>Social Media Management</h3>
-                    <p>Complete platform management, content creation, and analytics to grow your social presence across all major networks with a consistent brand voice.</p>
-                    <a href="#contact" class="service-btn">Learn More</a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Website Development</h3>
-                    <p>Responsive, high-performance websites built with modern technologies to convert visitors into customers with seamless user experiences and optimized performance.</p>
-                    <a href="#contact" class="service-btn">Learn More</a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-bullseye"></i>
-                    </div>
-                    <h3>Lead Generation</h3>
-                    <p>Targeted campaigns and conversion optimization strategies to generate quality leads for your business through multiple digital channels with measurable ROI.</p>
-                    <a href="#contact" class="service-btn">Learn More</a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h3>Review Management</h3>
-                    <p>Comprehensive reputation management including app reviews, map reviews, and brand monitoring to build trust and credibility with your target audience.</p>
-                    <a href="#contact" class="service-btn">Learn More</a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-store"></i>
-                    </div>
-                    <h3>GMB Optimization</h3>
-                    <p>Google My Business profile setup, optimization, and local SEO to boost your local visibility and attract more customers from your target geographic area.</p>
-                    <a href="#contact" class="service-btn">Learn More</a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-ad"></i>
-                    </div>
-                    <h3>PPC Advertising</h3>
-                    <p>Strategic paid advertising campaigns on Google, Facebook, Instagram, and LinkedIn for maximum ROI with precise targeting and continuous optimization.</p>
-                    <a href="#contact" class="service-btn">Learn More</a>
+            <div class="hero-content">
+                <h1>Affordable Digital Growth Solutions That Actually <span>Drive Revenue</span></h1>
+                <p>Specializing in ROI-driven marketing, we help startups, SMBs, and apps dominate local search, boost reviews, and convert more customers - without the agency price tag.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="cta-button">Explore Services</a>
+                    <a href="#contact" class="btn-secondary">Schedule Consultation</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Process Section - Enhanced -->
-    <section class="section process" id="process">
+    <!-- About Clickdera Section -->
+    <section class="about-clickdera" id="about">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2>About <span>Clickdera</span></h2>
+                    <p>Clickdera was founded in 2025 to address a critical problem in the digital marketing industry - agencies overcharging for simple services regardless of the actual work involved.</p>
+                    
+                    <p>Frustrated with the status quo and unable to find an affordable solution that maintained quality, our founder envisioned a new kind of agency. Clickdera was created to provide all digital marketing services at low cost without compromising on quality, creating a game-changer for businesses of all sizes.</p>
+                    
+                    <div class="mission-statement">
+                        <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+                        <p>To democratize digital marketing by providing high-quality, performance-driven services at prices that empower businesses rather than burden them. We believe every business deserves access to effective digital marketing regardless of their budget size.</p>
+                    </div>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>Founded in 2025</h4>
+                                <p>Established with a vision to provide affordable digital marketing solutions</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>Global Expansion</h4>
+                                <p>Expanded services to USA, India, Nepal and beyond</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>Industry Recognition</h4>
+                                <p>Recognized as a leader in affordable performance marketing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <i class="fas fa-lightbulb" style="font-size: 8rem; color: rgba(255,255,255,0.2);"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section - FIXED COUNTERS -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-text">Projects Completed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="stat-number" data-target="35">0</div>
+                    <div class="stat-text">Direct Brands Managed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <div class="stat-number" data-target="98" data-suffix="%">0</div>
+                    <div class="stat-text">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section - Enhanced -->
+    <section class="why-us" id="why-us">
         <div class="container">
             <div class="section-title">
-                <h2>Our Proven Process</h2>
-                <p>We follow a structured approach to ensure success for every project</p>
+                <h2>Why Choose <span>Clickdera</span></h2>
+                <p>Discover what makes us different from other digital marketing agencies</p>
             </div>
-            <div class="process-steps">
-                <div class="process-step">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3>Discovery & Strategy</h3>
-                        <p>We begin by thoroughly understanding your business, goals, and target audience through in-depth research and analysis to develop a customized digital marketing strategy tailored to your specific needs.</p>
-                    </div>
+            
+            <div class="why-us-container">
+                <div class="why-us-header">
+                    <h2>We Deliver <span>Results-Driven</span> Marketing Solutions</h2>
+                    <p>At Clickdera, we combine industry expertise with innovative strategies to deliver measurable results for your business. Our focus on performance and affordability sets us apart in the competitive digital marketing landscape.</p>
                 </div>
-                <div class="process-step">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3>Planning & Execution</h3>
-                        <p>Our expert team creates detailed action plans with clear milestones and implements campaigns with precision and attention to detail, ensuring all elements work together seamlessly.</p>
+                
+                <div class="why-points-grid">
+                    <div class="why-point-card">
+                        <div class="point-icon">
+                            <i class="fas fa-rupee-sign"></i>
+                        </div>
+                        <h3>Affordable Pricing</h3>
+                        <p>Quality marketing services at prices that won't break your budget. We focus on value, not high prices, making professional marketing accessible to all businesses.</p>
                     </div>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3>Monitoring & Optimization</h3>
-                        <p>We continuously track performance metrics using advanced analytics tools and optimize campaigns in real-time for better results and maximum return on your investment.</p>
+                    
+                    <div class="why-point-card">
+                        <div class="point-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Performance Focused</h3>
+                        <p>We prioritize measurable results - leads, conversions, and ROI - not just vanity metrics. Our data-driven approach ensures your marketing budget delivers real growth.</p>
                     </div>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <h3>Reporting & Analysis</h3>
-                        <p>Transparent reporting with actionable insights to measure success, demonstrate value, and guide future strategies with clear recommendations for continuous improvement.</p>
+                    
+                    <div class="why-point-card">
+                        <div class="point-icon">
+                            <i class="fas fa-globe-asia"></i>
+                        </div>
+                        <h3>Global Coverage</h3>
+                        <p>We serve clients across India, USA, Nepal, and worldwide with localized strategies that work. Wherever your customers are, we can help you reach them.</p>
+                    </div>
+                    
+                    <!-- New benefits -->
+                    <div class="why-point-card">
+                        <div class="point-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Experienced Team</h3>
+                        <p>Our team consists of digital marketing veterans with 5+ years of industry experience across diverse sectors and markets.</p>
+                    </div>
+                    
+                    <div class="why-point-card">
+                        <div class="point-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Quick Turnaround</h3>
+                        <p>We value your time and deliver projects efficiently without compromising quality. Most projects start within 48 hours.</p>
+                    </div>
+                    
+                    <div class="why-point-card">
+                        <div class="point-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Transparent Reporting</h3>
+                        <p>Access real-time dashboards and detailed reports showing exactly how your marketing budget is performing.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section - Enhanced -->
-    <section class="section testimonials" id="testimonials">
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
         <div class="container">
             <div class="section-title">
-                <h2>Client Success Stories</h2>
-                <p>Hear from businesses that have transformed their digital presence with us</p>
+                <h2>Client <span>Testimonials</span></h2>
+                <p>Hear what our clients say about working with us</p>
             </div>
+            
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>Lefind Digital Media completely transformed our social media presence. Our engagement rates have tripled and we're seeing consistent lead generation from their strategies. Their team is responsive, creative, and truly understands our industry. The results have exceeded our expectations.</p>
+                        <p>"Clickdera transformed our local visibility with their Google Map SEO service. Our business now appears in the top 3 for all relevant searches in our area. Highly recommended for any local business in India!"</p>
                     </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">RK</div>
-                        <div class="author-info">
-                            <h4>Rajesh Kumar</h4>
-                            <p>CEO, TechSolutions</p>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rajesh Sharma">
+                        </div>
+                        <div class="client-details">
+                            <h4>Rajesh Sharma</h4>
+                            <p>Restaurant Owner, Delhi</p>
                         </div>
                     </div>
                 </div>
+                
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>The influencer marketing campaign delivered exceptional results, with a 5x return on our investment. Lefind's network of influencers and campaign execution was flawless. We've already signed up for another campaign! Their ability to match our brand with the right influencers was impressive.</p>
+                        <p>"As a startup with limited budget, Clickdera's affordable digital marketing services were a game-changer. Their performance marketing strategies helped us achieve 3x ROI in just 90 days."</p>
                     </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">SP</div>
-                        <div class="author-info">
-                            <h4>Sunita Patel</h4>
-                            <p>Marketing Director, FashionHub</p>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Priya Patel">
+                        </div>
+                        <div class="client-details">
+                            <h4>Priya Patel</h4>
+                            <p>CEO, Tech Startup, Bangalore</p>
                         </div>
                     </div>
                 </div>
+                
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>Our website redesign and SEO strategy has increased organic traffic by 300% in just 6 months. Lefind Digital Media understands digital marketing at a deep level. Their technical expertise and strategic approach have been invaluable to our online growth and customer acquisition.</p>
+                        <p>"The app review management service helped us improve our Play Store rating from 3.2 to 4.7 in just two months. This significantly boosted our download rates and user trust."</p>
                     </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">AM</div>
-                        <div class="author-info">
-                            <h4>Anil Mehta</h4>
-                            <p>Founder, EduTech Solutions</p>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Michael Johnson">
+                        </div>
+                        <div class="client-details">
+                            <h4>Michael Johnson</h4>
+                            <p>App Developer, USA</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Achievements Section -->
-    <section class="section achievements" id="achievements">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our Achievements</h2>
-                <p>Milestones that demonstrate our expertise and commitment</p>
-            </div>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="counter" data-target="50">0</div>
-                    <p>Projects Completed</p>
-                </div>
-                <div class="stat-card">
-                    <div class="counter" data-target="45">0</div>
-                    <p>Satisfied Clients</p>
-                </div>
-                <div class="stat-card">
-                    <div class="counter" data-target="100">0</div>
-                    <p>Client Retention</p>
-                </div>
-                <div class="stat-card">
-                    <div class="counter" data-target="25">0</div>
-                    <p>Industry Awards</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="section contact" id="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="section-title">
-                <h2>Get In Touch</h2>
-                <p>Ready to grow your business? Contact us today for a free consultation</p>
+                <h2>Contact Us</h2>
+                <p>Get in touch with our team to discuss your project</p>
             </div>
+            
             <div class="contact-container">
-                <div class="contact-column form-column">
-                    <div class="contact-form">
-                        <form id="contactForm" action="https://formsubmit.co/sales@lefinddigitalmedia.com" method="POST">
-                            <input type="hidden" name="_subject" value="New Contact Form Submission">
-                            <input type="hidden" name="_template" value="table">
-                            <div class="form-group">
-                                <label for="name">Your Name</label>
-                                <input type="text" id="name" name="name" class="form-control" required>
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Have a project in mind or want to learn more about our services? Reach out to us and our team will get back to you within 24 hours.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
                             </div>
-                            <div class="form-group">
-                                <label for="email">Email Address</label>
-                                <input type="email" id="email" name="email" class="form-control" required>
+                            <div class="contact-text">
+                                <h4>Our Locations</h4>
+                                <p>India • USA • Nepal</p>
                             </div>
-                            <div class="form-group">
-                                <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone" class="form-control">
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
                             </div>
-                            <div class="form-group">
-                                <label for="service">Service Interested In</label>
-                                <select id="service" name="service" class="form-control">
-                                    <option value="">Select a service</option>
-                                    <option value="influencer">Influencer Marketing</option>
-                                    <option value="video">Video Editing</option>
-                                    <option value="social">Social Media Management</option>
-                                    <option value="web">Website Development</option>
-                                    <option value="leads">Lead Generation</option>
-                                    <option value="reviews">Review Management</option>
-                                    <option value="gmb">GMB Optimization</option>
-                                    <option value="ppc">PPC Advertising</option>
-                                </select>
+                            <div class="contact-text">
+                                <h4>Phone Number</h4>
+                                <p>+91 98765 43210 (India)<br>+1 (555) 123-4567 (USA)</p>
                             </div>
-                            <div class="form-group">
-                                <label for="message">Your Message</label>
-                                <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
                             </div>
-                            <button type="submit" class="btn" style="width: 100%;">Send Message</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="contact-column info-column">
-                    <div class="contact-info-card">
-                        <h3><i class="fas fa-paper-plane"></i> Contact Information</h3>
-                        <div class="contact-info-grid">
-                            <div class="contact-info-item">
-                                <div class="contact-icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </div>
-                                <div class="contact-details">
-                                    <h4>Our Office</h4>
-                                    <p>Jitali Ankleshwar, Bharuch, Gujarat, India</p>
-                                </div>
+                            <div class="contact-text">
+                                <h4>Email Address</h4>
+                                <p>info@clickdera.com</p>
                             </div>
-                            <div class="contact-info-item">
-                                <div class="contact-icon">
-                                    <i class="fas fa-phone"></i>
-                                </div>
-                                <div class="contact-details">
-                                    <h4>Phone</h4>
-                                    <p><a href="tel:+919979669552">+91 99796 69552</a></p>
-                                </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
                             </div>
-                            <div class="contact-info-item">
-                                <div class="contact-icon">
-                                    <i class="fas fa-envelope"></i>
-                                </div>
-                                <div class="contact-details">
-                                    <h4>Email</h4>
-                                    <p><a href="mailto:sales@lefinddigitalmedia.com">sales@lefinddigitalmedia.com</a></p>
-                                </div>
-                            </div>
-                            <div class="contact-info-item">
-                                <div class="contact-icon">
-                                    <i class="fas fa-clock"></i>
-                                </div>
-                                <div class="contact-details">
-                                    <h4>Working Hours</h4>
-                                    <p>Monday - Friday: 9AM - 6PM</p>
-                                    <p>Saturday: 10AM - 2PM</p>
-                                </div>
+                            <div class="contact-text">
+                                <h4>Working Hours</h4>
+                                <p>Monday-Friday: 9AM-6PM<br>Saturday: 10AM-2PM</p>
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="whatsapp-option">
+                        <i class="fab fa-whatsapp whatsapp-icon"></i>
+                        <p>Chat with us on WhatsApp: +91 98765 43210</p>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Social Media Section -->
-    <section class="section social-section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Connect With Us</h2>
-                <p>Follow us on social media for digital marketing tips and updates</p>
-            </div>
-            <div class="social-media">
-                <a href="https://www.instagram.com/lefinddigitalmedia?igsh=cjZrMW1qZWlleTZ1" target="_blank" class="social-icon instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/company/lefind-digital-media/" target="_blank" class="social-icon linkedin">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="https://t.me/lefinddigital_media" target="_blank" class="social-icon telegram">
-                    <i class="fab fa-telegram-plane"></i>
-                </a>
+                
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form action="https://formspree.io/f/xnnvyoag" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service" class="form-control" required>
+                                <option value="">Select a service</option>
+                                <option value="performance">Performance Marketing</option>
+                                <option value="video">Video Editing</option>
+                                <option value="map">Google Map SEO</option>
+                                <option value="reviews">App & Map Reviews</option>
+                                <option value="social">Social Media Management</option>
+                                <option value="app">App Marketing</option>
+                                <option value="package">Custom Package</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Tell us about your project" required></textarea>
+                        </div>
+                        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h3>Lefind Digital Media</h3>
-                    <p>Your trusted partner for comprehensive digital marketing solutions that drive growth and deliver measurable results across all digital channels.</p>
-                    <div class="social-media" style="justify-content: flex-start; margin-top: 25px;">
-                        <a href="https://www.instagram.com/lefinddigitalmedia?igsh=cjZrMW1qZWlleTZ1" target="_blank" class="social-icon instagram" style="width: 50px; height: 50px; font-size: 1.4rem;">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/company/lefind-digital-media/" target="_blank" class="social-icon linkedin" style="width: 50px; height: 50px; font-size: 1.4rem;">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://t.me/lefinddigital_media" target="_blank" class="social-icon telegram" style="width: 50px; height: 50px; font-size: 1.4rem;">
-                            <i class="fab fa-telegram-plane"></i>
-                        </a>
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">Click<span>dera</span></div>
+                    <p>Affordable digital marketing agency providing performance marketing, video editing, Google Map SEO, app reviews, and social media management in India, USA & Nepal.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/company/clickera/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://x.com/clickdera?t=om66jJA8Z9y9OnIUhZ_8tg&s=09" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/clickdera?igsh=cWUxNDlrNzhvaHVz" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@Clickdera" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                     </div>
+                    <a href="#" class="gmb-link">
+                        <i class="fas fa-external-link-alt"></i> Our Google Business Profile
+                    </a>
                 </div>
-                <div class="footer-col">
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
+                
+                <div class="footer-links">
+                    <h3 class="footer-heading">Services</h3>
+                    <ul>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Performance Marketing</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Video Editing</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Google Map SEO</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> App & Map Reviews</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Social Media Management</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> App Marketing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul>
                         <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
                         <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
-                        <li><a href="#process"><i class="fas fa-chevron-right"></i> Our Process</a></li>
+                        <li><a href="#why-us"><i class="fas fa-chevron-right"></i> Why Choose Us</a></li>
                         <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Testimonials</a></li>
                         <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <h3>Services</h3>
-                    <ul class="footer-links">
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Influencer Marketing</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Social Media Management</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Website Development</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Lead Generation</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> GMB Optimization</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Contact Info</h3>
-                    <ul class="footer-links">
-                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Jitali Ankleshwar, Bharuch, Gujarat</a></li>
-                        <li><a href="tel:+919979669552"><i class="fas fa-phone"></i> +91 99796 69552</a></li>
-                        <li><a href="mailto:sales@lefinddigitalmedia.com"><i class="fas fa-envelope"></i> sales@lefinddigitalmedia.com</a></li>
-                        <li><a href="#"><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM</a></li>
+                
+                <div class="footer-links">
+                    <h3 class="footer-heading">Contact Info</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> India • USA • Nepal</a></li>
+                        <li><a href="tel:+919876543210"><i class="fas fa-phone-alt"></i> +91 98765 43210</a></li>
+                        <li><a href="mailto:info@clickdera.com"><i class="fas fa-envelope"></i> info@clickdera.com</a></li>
+                        <li><a href="https://wa.me/919876543210"><i class="fab fa-whatsapp"></i> WhatsApp Chat</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Lefind Digital Media. All rights reserved.</p>
-                <p>Registered Office: Jitali Ankleshwar, Bharuch, Gujarat, India</p>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Clickdera. All rights reserved. | Revolutionizing Digital Marketing Since 2025</p>
             </div>
         </div>
     </footer>
-
-    <!-- Floating Contact Button -->
-    <div class="floating-contact">
-        <div class="contact-options" id="contactOptions">
-            <a href="https://wa.me/919979669552" target="_blank" class="contact-option">
-                <i class="fab fa-whatsapp fa-lg" style="color: #25D366;"></i>
-                <span>WhatsApp Chat</span>
-            </a>
-            <a href="tel:+919979669552" class="contact-option">
-                <i class="fas fa-phone fa-lg" style="color: var(--primary-color);"></i>
-                <span>Call Us</span>
-            </a>
-            <a href="mailto:sales@lefinddigitalmedia.com" class="contact-option">
-                <i class="fas fa-envelope fa-lg" style="color: var(--primary-color);"></i>
-                <span>Send Email</span>
-            </a>
-        </div>
-        <div class="contact-btn" onclick="toggleContact()">
-            <i class="fas fa-comment-dots"></i>
-            <div class="pulse"></div>
-        </div>
+    
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
     </div>
 
     <script>
-        // Fixed Menu Toggle Function
-        function toggleMenu() {
-            const menu = document.getElementById('dropdownMenu');
-            menu.classList.toggle('active');
-            
-            // Close when clicking outside
-            document.addEventListener('click', function closeMenu(e) {
-                if (!e.target.closest('.nav-container')) {
-                    menu.classList.remove('active');
-                    document.removeEventListener('click', closeMenu);
-                }
-            });
-        }
-
-        // Contact Button Toggle
-        function toggleContact() {
-            const options = document.getElementById('contactOptions');
-            options.classList.toggle('active');
-            
-            // Close when clicking outside
-            document.addEventListener('click', function closeOptions(e) {
-                if (!e.target.closest('.floating-contact')) {
-                    options.classList.remove('active');
-                    document.removeEventListener('click', closeOptions);
-                }
-            });
-        }
-
-        // Navbar scroll effect
-        window.addEventListener('scroll', function() {
-            const nav = document.getElementById('navbar');
-            if (window.scrollY > 50) {
-                nav.classList.add('scrolled');
-            } else {
-                nav.classList.remove('scrolled');
-            }
-        });
-
-        // Smooth scrolling for anchor links
+        // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -1575,48 +1804,154 @@
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth'
                 });
-                
-                // Close menu if mobile
-                const menu = document.getElementById('dropdownMenu');
-                if (menu.classList.contains('active')) {
-                    menu.classList.remove('active');
-                }
             });
         });
-
-        // Counter animation for achievements
-        function animateCounters() {
-            const counters = document.querySelectorAll('.counter');
-            const speed = 200; // The lower the faster
+        
+        // Header shadow on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.1)';
+                header.style.background = 'rgba(15, 23, 42, 0.98)';
+            } else {
+                header.style.boxShadow = 'none';
+                header.style.background = 'rgba(15, 23, 42, 0.95)';
+            }
             
-            counters.forEach(counter => {
-                const target = +counter.getAttribute('data-target');
-                const count = +counter.innerText;
-                const increment = target / speed;
-                
-                if(count < target) {
-                    counter.innerText = Math.ceil(count + increment);
-                    setTimeout(animateCounters, 1);
-                } else {
-                    counter.innerText = target;
-                }
-            });
-        }
-
-        // Initialize counter animation when achievements section is in view
+            // Scroll to top button visibility
+            const scrollTopBtn = document.querySelector('.scroll-top');
+            if (window.scrollY > 500) {
+                scrollTopBtn.classList.add('active');
+            } else {
+                scrollTopBtn.classList.remove('active');
+            }
+        });
+        
+        // Animation for service cards
+        const serviceCards = document.querySelectorAll('.service-card');
+        const statCards = document.querySelectorAll('.stat-card');
+        const testimonialCards = document.querySelectorAll('.testimonial-card');
+        const whyPoints = document.querySelectorAll('.why-point-card');
+        
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    animateCounters();
-                    observer.unobserve(entry.target);
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+        
+        serviceCards.forEach(card => {
+            card.style.opacity = 0;
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'all 0.6s ease';
+            observer.observe(card);
+        });
+        
+        statCards.forEach(card => {
+            card.style.opacity = 0;
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'all 0.6s ease';
+            observer.observe(card);
+        });
+        
+        testimonialCards.forEach(card => {
+            card.style.opacity = 0;
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'all 0.6s ease';
+            observer.observe(card);
+        });
+        
+        whyPoints.forEach(point => {
+            point.style.opacity = 0;
+            point.style.transform = 'translateY(30px)';
+            point.style.transition = 'all 0.6s ease';
+            observer.observe(point);
+        });
+        
+        // Form submission
+        const contactForm = document.querySelector('form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // Show a success message
+                alert('Thank you for your message! We will contact you shortly.');
+                // Reset the form
+                contactForm.reset();
+            });
+        }
+        
+        // Fixed Stats Counter Animation
+        function animateCounter(element, target, suffix = '') {
+            const duration = 2000; // Animation duration in ms
+            const frameDuration = 1000 / 60; // 60fps
+            const totalFrames = Math.round(duration / frameDuration);
+            let frame = 0;
+            
+            const counter = setInterval(() => {
+                frame++;
+                const progress = frame / totalFrames;
+                const currentCount = Math.floor(target * progress);
+                
+                if (currentCount < target) {
+                    element.textContent = currentCount + suffix;
+                } else {
+                    element.textContent = target + suffix;
+                    clearInterval(counter);
+                }
+            }, frameDuration);
+        }
+        
+        // Stats counter observer
+        const statsSection = document.querySelector('.stats');
+        const statNumbers = document.querySelectorAll('.stat-number');
+        let statsAnimated = false;
+        
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !statsAnimated) {
+                    statNumbers.forEach(element => {
+                        const target = parseInt(element.getAttribute('data-target'));
+                        const suffix = element.getAttribute('data-suffix') || '+';
+                        
+                        // Reset to 0 before animating
+                        element.textContent = '0';
+                        
+                        // Start animation
+                        animateCounter(element, target, suffix);
+                    });
+                    
+                    statsAnimated = true;
+                    statsObserver.unobserve(entry.target);
                 }
             });
         }, { threshold: 0.5 });
-
-        const achievementsSection = document.querySelector('.achievements');
-        if (achievementsSection) {
-            observer.observe(achievementsSection);
-        }
+        
+        statsObserver.observe(statsSection);
+        
+        // Scroll to top button
+        const scrollTopBtn = document.querySelector('.scroll-top');
+        
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Rotating animations for icons
+        const rotatingIcons = document.querySelectorAll('.service-icon, .point-icon');
+        rotatingIcons.forEach(icon => {
+            icon.addEventListener('mouseenter', () => {
+                icon.style.transform = 'rotate(10deg) scale(1.1)';
+            });
+            icon.addEventListener('mouseleave', () => {
+                icon.style.transform = '';
+            });
+        });
     </script>
 </body>
 </html>
